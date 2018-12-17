@@ -1,0 +1,86 @@
+.carousel{
+  position: relative;
+z-index: 1999;
+}
+.navbar{
+  position: absolute;
+  z-index: 2000;
+}
+.nav-brand a{
+    font-family: 'Black And White Picture', sans-serif;
+    color: white;
+}
+.navbar a{
+    color: white;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+.carousel .img1{
+background-image: url()
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown .btn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  img{
+    max-width: 100%;
+  }
+  .image3{
+    background-image: url("../img/korea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 900px;
+}
+.image4{
+    background-image: url("../img/hongkong.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 900px;
+}
+.image5{
+    background-image: url("../img/japan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 900px;
+}
