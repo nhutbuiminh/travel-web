@@ -1,16 +1,20 @@
+body{
+  background-color: #fcfff5;  
+}
 .carousel{
   position: relative;
-z-index: 1999;
+z-index: 1799;
 }
-.navbar{
+#Navbar{
   position: absolute;
   z-index: 2000;
 }
-.nav-brand a{
+#Logo a{
     font-family: 'Black And White Picture', sans-serif;
-    color: white;
+    color:black;
+    font-size: 3rem;
 }
-.navbar a{
+#Navbar a{
     color: white;
     display: flex;
     text-align: center;
@@ -18,6 +22,12 @@ z-index: 1999;
 }
 .carousel .img1{
 background-image: url()
+}
+.dropdown{
+  color: white;
+}
+#dropBtn {
+  background: none;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -64,7 +74,7 @@ background-image: url()
     background-size: cover;
     position: relative;
     width: inherit;
-    height: 900px;
+    height: 600px;
 }
 .image4{
     background-image: url("../img/hongkong.jpg");
@@ -73,7 +83,7 @@ background-image: url()
     background-size: cover;
     position: relative;
     width: inherit;
-    height: 900px;
+    height: 600px;
 }
 .image5{
     background-image: url("../img/japan.jpg");
@@ -82,5 +92,32 @@ background-image: url()
     background-size: cover;
     position: relative;
     width: inherit;
-    height: 900px;
+    height: 600px;
 }
+.imageCard-1{
+background-image: url('../img/philipin.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+width: inherit;
+height: 300px;
+}
+.imageCard-2{
+  background-image: url('../img/tokyo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 300px;
+  }
+.imageCard-3{
+    background-image: url('../img/indonesia.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 300px;
+    }
