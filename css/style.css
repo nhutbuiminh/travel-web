@@ -1,5 +1,12 @@
 body{
-  background-color: #fcfff5;  
+  background-color:#fcfff5;  
+  color:  #193441;
+}
+.best-offer{
+   
+}
+.card-deck{
+  color: #fcfff5;
 }
 .carousel{
   position: relative;
@@ -11,59 +18,27 @@ z-index: 1799;
 }
 #Logo a{
     font-family: 'Black And White Picture', sans-serif;
-    color:black;
     font-size: 3rem;
 }
 #Navbar a{
-    color: white;
+    color: #fcfff5;
     display: flex;
     text-align: center;
     text-decoration: none;
+}
+.dropdown-menu a{
+  color: #193441;
+  background-color: #193441;
 }
 .carousel .img1{
 background-image: url()
 }
 .dropdown{
-  color: white;
+  color: #193441;
 }
 #dropBtn {
   background: none;
 }
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  .dropdown .btn {
-    font-size: 16px; 
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
   img{
     max-width: 100%;
   }
@@ -120,4 +95,155 @@ height: 300px;
     position: relative;
     width: inherit;
     height: 300px;
-    }
+}
+.imageCard-4{
+      background-image: url('../img/bankok.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      width: inherit;
+      height: 300px;
+}
+.imageCard-5{
+        background-image: url('../img/mongolia.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: inherit;
+        height: 300px;
+}
+.imageCard-6{
+          background-image: url('../img/taiwan.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          width: inherit;
+          height: 300px;
+}
+.card{
+            box-shadow: 1px 1px rgba(0,0,0,0.2) ;
+            
+}
+.hot-service .card-text {
+color:  #193441;
+}
+.card-title{
+color:  #193441;
+}
+.rate-star{
+  color: #ffe11a;
+}
+.country{
+  color: #fcfff5;
+}
+.imgService-1{
+  background-image: url('../img/danang.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.imgService-2{
+  background-image: url('../img/taipei101.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.imgService-3{
+  background-image: url('../img/garden\ 2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.imgService-4{
+  background-image: url('../img/safari.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.imgService-5{
+  background-image: url('../img/Bangkok_Skytrain.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.card-img-overlay{
+  color: #fcfff5;
+}
+.travel-inspiration-img-cover{
+  background-image: url('../img/yoosun-won-23755-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 414px;
+}
+.travel-inspiration-img-1{
+  background-image: url('../img/yoosun-won-23755-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.travel-inspiration-img-2{
+  background-image: url('../img/yoosun-won-23755-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.travel-inspiration-img-3{
+  background-image: url('../img/yoosun-won-23755-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.travel-inspiration-img-4{
+  background-image: url('../img/yoosun-won-23755-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+.why-choose-us{
+  background-image: url(../img/danang.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: inherit;
+  height: 500px;
+  
+}
+.why-choose-us-title{
+  color: #fcfff5;
+}
+.why-choose-us-experience{
+  height: 230px;
+}
